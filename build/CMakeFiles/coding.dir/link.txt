@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/coding.dir/src/main.cpp.o -o coding  -Wl,-rpath,/home/rayit/Development/coding/build/libs/SFML/lib libs/SFML/lib/libsfml-graphics.so.3.0.0 libs/SFML/lib/libsfml-window.so.3.0.0 libs/SFML/lib/libsfml-system.so.3.0.0 

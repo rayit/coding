@@ -21,7 +21,7 @@ class loginManager
             cout << "Please enter password and username.\nUsername:";
             cin >> userNameAttempt;
 
-            userName = getFile();
+            // userName = getFile();
             if ( userNameAttempt == userName ) {
                 cout << "Password:";
                 cin >> passWordAttempt;
@@ -35,7 +35,7 @@ class loginManager
            string line;
            fstream file;
            file.open(p_fileName, ios::in);
-           if (file.is_open) 
+           if (file.is_open()) 
            {
                getline(file, line);
            }
